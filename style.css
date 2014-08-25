@@ -1,0 +1,18 @@
+
+/**
+ * UserVoice
+ */
+
+.logo[data-logo="UserVoice"] {
+  width: 4.773225199em;
+  /* (302.67/71.67) * (1+.085+.05) - .02 */
+}
+
+.logo[data-logo="UserVoice"] > * {
+  background-image: url(images/logo.svg);
+  margin: -.085em -.02em -.05em 0;
+}
+
+.logo[data-logo="UserVoice"].monochromatic > * {
+  background-image: url(images/logo-monochromatic.svg);
+}
